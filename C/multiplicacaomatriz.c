@@ -41,7 +41,7 @@ int main() {
 
     int matrizA[QTD_LINHAS][QTD_COLUNAS] = {{1, 2, 3}, {4, 5, 6}, {6,7,8}};
     int matrizB[QTD_LINHAS][QTD_COLUNAS] = {{7, 8}, {9, 10}, {11, 12}};
-    int matrizMult[QTD_LINHAS][QTD_COLUNAS]; // Matriz para armazenar o resultado
+    int matrizMult[QTD_LINHAS][QTD_COLUNAS];
 
 
     multiplicarMatrizes(matrizA, linA, colA, matrizB, linB, colB, matrizMult);
